@@ -48,6 +48,28 @@ table {
 Theme Styles
 *******************************************************************************/
 
+/*This is the nav bar stuff*/
+
+nav ul, footer ul { 
+  box-sizing: border-box;
+  color:#373737;
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  /*this is how much space is above the nav bar*/
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  }
+
+nav ul li, footer ul li { 
+  display: inline;
+  margin-right: 20px;
+  font-weight: 700;
+  color:#222222;
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+  margin-right: 20px;
+}
+
 body {
   box-sizing: border-box;
   color:#373737;
