@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Alex Tsankov's Blog</title>
+ <link href="http://antsankov.github.io/blog/atom.xml" rel="self"/>
+ <link href="http://antsankov.github.io/blog"/>
+ <updated>2014-12-29T18:03:44-07:00</updated>
+ <id>http://antsankov.github.io/blog</id>
+ <author>
+   <name>Alex Tsankov</name>
+   <email>antsankov@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Coinorado</title>
+   <link href="http://antsankov.github.io/blog/2014/11/15/coinorado"/>
+   <updated>2014-11-15T00:00:00-07:00</updated>
+   <id>http://antsankov.github.io//blog/2014/11/15/coinorado</id>
+   <content type="html">&lt;h4 id=&quot;main-idea&quot;&gt;Main Idea&lt;/h4&gt;
+
+&lt;p&gt;For this &lt;a href=&quot;http://www.colorado.edu/studentgroups/bitcoin/coin-orado&quot;&gt;Hackathon&lt;/a&gt;, I worked with my roommates &lt;a href=&quot;https://github.com/untra&quot;&gt;Sam&lt;/a&gt; and &lt;a href=&quot;https://github.com/cdsalazar&quot;&gt;Cris&lt;/a&gt;,
+to develop a Bitcoin based &lt;a href=&quot;https://github.com/antsankov/coinorado_hackathon&quot;&gt;remittence system&lt;/a&gt; that was accessible
+through basic SMS messaging. We stayed up for 24 hours and ended up
+winning half a bitcoin at the competition!&lt;/p&gt;
+
+&lt;h4 id=&quot;technology-used&quot;&gt;Technology Used&lt;/h4&gt;
+
+&lt;p&gt;Twilio, Heroku, Python Flask, Blockchain API, Git&lt;/p&gt;
+
+&lt;figure&gt;
+		&lt;img src=&quot;/pictures/coinorado/coinorado_twilio.png&quot; alt=&quot;Twilio&quot; width=&quot;50%&quot; height=&quot;50%&quot; align=&quot;middle&quot; /&gt;
+		&lt;figcaption&gt; Working with Twilio&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;There were three aspects of the project that we needed to solve to make
+it work: Interfacing with SMS, parsing input, and making the Bitcoin
+transactions. To actually receive the messages, I setup an account and
+started working with the Twilio API. I redirected these messages to a
+Flask server we had set up and were hosting on Heroku that would parse
+the information of the SMS string and make the proper calls to the
+Blockchain API to handle the actual bitcoin transactions. By the end of
+the 24 hour competition we were able to create accounts, check balances,
+and send bitcoins all via SMS messages. We probably lost about 6 hours
+(25%) of our work by making a bad push to our Heroku server, which
+happened to work on our local Flask instance. We started getting an
+ominous “Internal Server Error” that not even Heroku’s rollbacks would
+fix. This just goes to show how lack of sleep can impair logical
+thinking and create negative feedback loops, especially in a group
+context.&lt;/p&gt;
+
+&lt;h4 id=&quot;hard-lessons-learned&quot;&gt;Hard Lessons Learned&lt;/h4&gt;
+
+&lt;p&gt;Make Git tags! We lost 25% of our work because we weren’t working with
+Git properly, something made more complex by the two origins we were
+using for Github and Heroku. If we had had a proper Git tag every hour
+or so, we would have had a much easier time spinning up new servers
+based on our tags in case of catastrophic failures.&lt;/p&gt;
+
+&lt;figure&gt;
+		&lt;img src=&quot;/pictures/coinorado/server_error.png&quot; alt=&quot;Server Error!&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;
+		&lt;figcaption&gt;The Dreaded Server Error!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;soft-lessons-learned&quot;&gt;Soft Lessons Learned&lt;/h4&gt;
+
+&lt;p&gt;I recognized how important it is when working in a group to meet often
+and debug regularly, the essence of the Agile system. We were far more
+productive group programming and discussing our plans in real time that
+working independently in our own bubbles.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
