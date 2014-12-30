@@ -4,13 +4,46 @@
  <title>My Projects Blog</title>
  <link href="http://antsankov.github.io/blog/atom.xml" rel="self"/>
  <link href="http://antsankov.github.io/blog"/>
- <updated>2014-12-29T19:47:16-07:00</updated>
+ <updated>2014-12-30T12:08:59-07:00</updated>
  <id>http://antsankov.github.io/blog</id>
  <author>
    <name>Alex Tsankov</name>
    <email>antsankov@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Bro-Yanc Integration</title>
+   <link href="http://antsankov.github.io/blog/2014/12/30/bro_yanc"/>
+   <updated>2014-12-30T00:00:00-07:00</updated>
+   <id>http://antsankov.github.io//blog/2014/12/30/bro_yanc</id>
+   <content type="html">&lt;h4 id=&quot;main-idea&quot;&gt;Main Idea&lt;/h4&gt;
+
+&lt;p&gt;This was a year long project I worked with Prof. Eric Keller, Matt Monaco, and Oliver Michel on to integrate the &lt;a href=&quot;https://www.bro.org/&quot;&gt;Bro&lt;/a&gt; intrusion detection system (IDS) into our own &lt;a href=&quot;https://github.com/ngn-colorado/yanc&quot;&gt;Yanc&lt;/a&gt; SDN controller. My main goal was to implement the ability to change scripts variables on the fly for the same scripts on multiple devices through a single controller unit. &lt;/p&gt;
+
+&lt;h4 id=&quot;technology-used&quot;&gt;Technology Used&lt;/h4&gt;
+
+&lt;p&gt;Object Oriented Python, Bro IDS, &lt;a href=&quot;https://www.bro.org/sphinx/broccoli-api/index.html&quot;&gt;Broccoli&lt;/a&gt; API, FUSE, Git&lt;/p&gt;
+
+&lt;figure&gt;
+		&lt;img class=&quot;displayed&quot; src=&quot;/pictures/bro-yanc/bro_test.png&quot; alt=&quot;Working with Bro&quot; width=&quot;50%&quot; height=&quot;50%&quot; align=&quot;middle&quot; /&gt;
+		&lt;figcaption&gt; Working with Bro&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;This was the first serious open source project that I worked on in an academic context. I had had some experience with Bro in my job at our campus Network security office, yet I had never really had any opportunities to create anything with it beyond simple scripts. Working through the &lt;a href=&quot;https://www.bro.org/sphinx/broccoli-api/index.html&quot;&gt;Broccoli&lt;/a&gt; API to interface with Bro through a Python application, I implemented the ability to change multiple scripts in real time from a single controller program. I did this by creating custom Bro modules (think header files) that would be pre-programmed with the information to communicate with the controller unit. This controller program was python application would parse terminal input into global commands for a potential cluster of Bro devices each running the same script but with different variables by device. Imagine you had 4 Bro devices on a network and they each alert you when someone connects to a different IP address. You can change this IP on each of them so they alert you at different times. I had never really used Python classes before, so it was a learning experience coming from the behemoth that is Java OOP. I hope to continue this project into 2015 by implementing a quality of service system regulating how Bro gets its data to run its scripts on. &lt;/p&gt;
+
+&lt;h4 id=&quot;hard-lessons-learned&quot;&gt;Hard Lessons Learned&lt;/h4&gt;
+
+&lt;p&gt;The biggest learning experience for me on this project was the right way to work with objects. I had originally intended to have a purely functional program, but as I started working with the complex system of sockets that Broccoli uses, I found making connection classes to be far more comprehensible and scalable. &lt;/p&gt;
+
+&lt;h4 id=&quot;soft-lessons-learned&quot;&gt;Soft Lessons Learned&lt;/h4&gt;
+
+&lt;p&gt;I learned how to work with a group on larger open source project in an academic context. I had no idea how important performance testing is, not just to see how well the program works, but whether it even really works at all. Also, much of the functionality I implemented would have only required slight modifications to the BroControl program. &lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Coinorado</title>
@@ -47,7 +80,7 @@ and send bitcoins all via SMS messages. We probably lost about 6 hours
 (25%) of our work by making a bad push to our Heroku server, which
 happened to work on our local Flask instance. We started getting an
 ominous “Internal Server Error” that not even Heroku’s rollbacks would
-fix. This just goes to show how lack of sleep can impair logical
+fix. Why it happened, we still don’t know. I suspect that there was something bad in our code that would trigger a crash that wouldn’t occur when the server was running locally.This just goes to show how lack of sleep can impair logical
 thinking and create negative feedback loops, especially in a group
 context.&lt;/p&gt;
 

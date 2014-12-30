@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Bro-Yanc Integration</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  
+  </head>
+
+
+  <body>
+    <nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/professional">Professional</a></li>
+<!-- <li><a href="/cv">CV</a></li>-->
+<li><a href="/blog">Projects</a></li>
+</ul>
+    </nav>
+<div class="container">
+
+  <h1>Bro-Yanc Integration</h1>
+<p class="meta">30 Dec 2014</p>
+
+<div class="post">
+  <h4 id="main-idea">Main Idea</h4>
+
+<p>This was a year long project I worked with Prof. Eric Keller, Matt Monaco, and Oliver Michel on to integrate the <a href="https://www.bro.org/">Bro</a> intrusion detection system (IDS) into our own <a href="https://github.com/ngn-colorado/yanc">Yanc</a> SDN controller. My main goal was to implement the ability to change scripts variables on the fly for the same scripts on multiple devices through a single controller unit. </p>
+
+<h4 id="technology-used">Technology Used</h4>
+
+<p>Object Oriented Python, Bro IDS, <a href="https://www.bro.org/sphinx/broccoli-api/index.html">Broccoli</a> API, FUSE, Git</p>
+
+<figure>
+		<img class="displayed" src="/pictures/bro-yanc/bro_test.png" alt="Working with Bro" width="50%" height="50%" align="middle" />
+		<figcaption> Working with Bro</figcaption>
+</figure>
+
+<h4 id="summary">Summary</h4>
+
+<p>This was the first serious open source project that I worked on in an academic context. I had had some experience with Bro in my job at our campus Network security office, yet I had never really had any opportunities to create anything with it beyond simple scripts. Working through the <a href="https://www.bro.org/sphinx/broccoli-api/index.html">Broccoli</a> API to interface with Bro through a Python application, I implemented the ability to change multiple scripts in real time from a single controller program. I did this by creating custom Bro modules (think header files) that would be pre-programmed with the information to communicate with the controller unit. This controller program was python application would parse terminal input into global commands for a potential cluster of Bro devices each running the same script but with different variables by device. Imagine you had 4 Bro devices on a network and they each alert you when someone connects to a different IP address. You can change this IP on each of them so they alert you at different times. I had never really used Python classes before, so it was a learning experience coming from the behemoth that is Java OOP. I hope to continue this project into 2015 by implementing a quality of service system regulating how Bro gets its data to run its scripts on. </p>
+
+<h4 id="hard-lessons-learned">Hard Lessons Learned</h4>
+
+<p>The biggest learning experience for me on this project was the right way to work with objects. I had originally intended to have a purely functional program, but as I started working with the complex system of sockets that Broccoli uses, I found making connection classes to be far more comprehensible and scalable. </p>
+
+<h4 id="soft-lessons-learned">Soft Lessons Learned</h4>
+
+<p>I learned how to work with a group on larger open source project in an academic context. I had no idea how important performance testing is, not just to see how well the program works, but whether it even really works at all. Also, much of the functionality I implemented would have only required slight modifications to the BroControl program. </p>
+
+
+</div>
+
+
+</div>
+  
+  <footer>
+   <ul>
+   <li><a href="mailto:antsankov@gmail.com">email</a></li>
+   <li><a href="https://github.com/antsankov">github.com/antsankov</a></li>
+   </ul>
+  </footer>
+  </body>
+
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57895312-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</html>

@@ -34,7 +34,7 @@ and send bitcoins all via SMS messages. We probably lost about 6 hours
 (25%) of our work by making a bad push to our Heroku server, which
 happened to work on our local Flask instance. We started getting an
 ominous “Internal Server Error” that not even Heroku’s rollbacks would
-fix. This just goes to show how lack of sleep can impair logical
+fix. Why it happened, we still don't know. I suspect that there was something bad in our code that would trigger a crash that wouldn't occur when the server was running locally.This just goes to show how lack of sleep can impair logical
 thinking and create negative feedback loops, especially in a group
 context.
 
@@ -63,4 +63,3 @@ working independently in our own bubbles.
   [Cris]: https://github.com/cdsalazar
   [remittence system]: https://github.com/antsankov/coinorado_hackathon
   [Twilio]: /pictures/coinorado/coinorado_twilio.png
-  [Server Error!]: /pictures/coinorado/server_error.png =1
