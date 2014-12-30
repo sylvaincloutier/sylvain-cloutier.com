@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Alex Tsankov's Blog</title>
+ <title>My Projects Blog</title>
  <link href="http://antsankov.github.io/blog/atom.xml" rel="self"/>
  <link href="http://antsankov.github.io/blog"/>
- <updated>2014-12-29T18:03:44-07:00</updated>
+ <updated>2014-12-29T18:23:39-07:00</updated>
  <id>http://antsankov.github.io/blog</id>
  <author>
    <name>Alex Tsankov</name>
@@ -29,7 +29,7 @@ winning half a bitcoin at the competition!&lt;/p&gt;
 &lt;p&gt;Twilio, Heroku, Python Flask, Blockchain API, Git&lt;/p&gt;
 
 &lt;figure&gt;
-		&lt;img src=&quot;/pictures/coinorado/coinorado_twilio.png&quot; alt=&quot;Twilio&quot; width=&quot;50%&quot; height=&quot;50%&quot; align=&quot;middle&quot; /&gt;
+		&lt;img class=&quot;displayed&quot; src=&quot;/pictures/coinorado/coinorado_twilio.png&quot; alt=&quot;Twilio&quot; width=&quot;50%&quot; height=&quot;50%&quot; align=&quot;middle&quot; /&gt;
 		&lt;figcaption&gt; Working with Twilio&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -60,7 +60,7 @@ or so, we would have had a much easier time spinning up new servers
 based on our tags in case of catastrophic failures.&lt;/p&gt;
 
 &lt;figure&gt;
-		&lt;img src=&quot;/pictures/coinorado/server_error.png&quot; alt=&quot;Server Error!&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;
+		&lt;img class=&quot;displayed&quot; src=&quot;/pictures/coinorado/server_error.png&quot; alt=&quot;Server Error!&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;
 		&lt;figcaption&gt;The Dreaded Server Error!&lt;/figcaption&gt;
 &lt;/figure&gt;
 

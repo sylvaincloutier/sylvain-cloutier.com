@@ -16,7 +16,7 @@ winning half a bitcoin at the competition!
 Twilio, Heroku, Python Flask, Blockchain API, Git
 
 <figure>
-		<img src="/pictures/coinorado/coinorado_twilio.png" alt="Twilio" width="50%" height="50%" align="middle">
+		<img class="displayed" src="/pictures/coinorado/coinorado_twilio.png" alt="Twilio" width="50%" height="50%" align="middle">
 		<figcaption> Working with Twilio</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ or so, we would have had a much easier time spinning up new servers
 based on our tags in case of catastrophic failures.
 
 <figure>
-		<img src="/pictures/coinorado/server_error.png" alt="Server Error!" width="75%" height="75%">
+		<img class="displayed" src="/pictures/coinorado/server_error.png" alt="Server Error!" width="75%" height="75%">
 		<figcaption>The Dreaded Server Error!</figcaption>
 </figure> 
 

@@ -28,3 +28,12 @@ ul.posts li { list-style: none; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+figure figcaption {
+    text-align: center;
+}
