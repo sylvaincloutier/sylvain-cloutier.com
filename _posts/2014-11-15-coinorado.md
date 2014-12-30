@@ -55,7 +55,7 @@ based on our tags in case of catastrophic failures.
 
 I recognized how important it is when working in a group to meet often
 and debug regularly, the essence of the Agile system. We were far more
-productive group programming and discussing our plans in real time that
+productive group programming and discussing our plans in real time as opposed to
 working independently in our own bubbles.
 
   [Hackathon]: http://www.colorado.edu/studentgroups/bitcoin/coin-orado

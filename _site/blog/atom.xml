@@ -4,7 +4,7 @@
  <title>My Projects Blog</title>
  <link href="http://antsankov.github.io/blog/atom.xml" rel="self"/>
  <link href="http://antsankov.github.io/blog"/>
- <updated>2014-12-29T19:31:47-07:00</updated>
+ <updated>2014-12-29T19:47:16-07:00</updated>
  <id>http://antsankov.github.io/blog</id>
  <author>
    <name>Alex Tsankov</name>
@@ -68,7 +68,7 @@ based on our tags in case of catastrophic failures.&lt;/p&gt;
 
 &lt;p&gt;I recognized how important it is when working in a group to meet often
 and debug regularly, the essence of the Agile system. We were far more
-productive group programming and discussing our plans in real time that
+productive group programming and discussing our plans in real time as opposed to
 working independently in our own bubbles.&lt;/p&gt;
 
 </content>
