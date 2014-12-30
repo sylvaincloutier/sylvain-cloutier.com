@@ -4,7 +4,7 @@
  <title>My Projects Blog</title>
  <link href="http://antsankov.github.io/blog/atom.xml" rel="self"/>
  <link href="http://antsankov.github.io/blog"/>
- <updated>2014-12-30T14:25:11-07:00</updated>
+ <updated>2014-12-30T15:12:50-07:00</updated>
  <id>http://antsankov.github.io/blog</id>
  <author>
    <name>Alex Tsankov</name>
@@ -40,20 +40,20 @@
 
 &lt;h4 id=&quot;soft-lessons-learned&quot;&gt;Soft Lessons Learned&lt;/h4&gt;
 
-&lt;p&gt;I learned how to work with a group on larger open source project in an academic context. I had no idea how important performance testing is, not just to see how well the program works, but whether it even really works at all. Also, much of the functionality I implemented would have only required slight modifications to the BroControl program. &lt;/p&gt;
+&lt;p&gt;I learned how to work with a group on larger open source project in an academic context. I had no idea how important performance testing is, not just to see how well the program works, but whether it even really works at all. Also, much of the functionality I implemented would have only required slight modifications to the Bro Control program. &lt;/p&gt;
 
 </content>
  </entry>
  
  <entry>
-   <title>Coinorado</title>
+   <title>Coinorado Hackathon</title>
    <link href="http://antsankov.github.io/blog/2014/11/15/coinorado"/>
    <updated>2014-11-15T00:00:00-07:00</updated>
    <id>http://antsankov.github.io//blog/2014/11/15/coinorado</id>
    <content type="html">&lt;h4 id=&quot;main-idea&quot;&gt;Main Idea&lt;/h4&gt;
 
 &lt;p&gt;For this &lt;a href=&quot;http://www.colorado.edu/studentgroups/bitcoin/coin-orado&quot;&gt;Hackathon&lt;/a&gt;, I worked with my roommates &lt;a href=&quot;https://github.com/untra&quot;&gt;Sam&lt;/a&gt; and &lt;a href=&quot;https://github.com/cdsalazar&quot;&gt;Cris&lt;/a&gt;,
-to develop a Bitcoin based &lt;a href=&quot;https://github.com/antsankov/coinorado_hackathon&quot;&gt;remittence system&lt;/a&gt; that was accessible
+to develop a Bitcoin based &lt;a href=&quot;https://github.com/antsankov/coinorado_hackathon&quot;&gt;remittence system&lt;/a&gt; to help immigrants send money back to their families that was accessible
 through basic SMS messaging. We stayed up for 24 hours and ended up
 winning half a bitcoin at the competition!&lt;/p&gt;
 
@@ -103,6 +103,44 @@ based on our tags in case of catastrophic failures.&lt;/p&gt;
 and debug regularly, the essence of the Agile system. We were far more
 productive group programming and discussing our plans in real time as opposed to
 working independently in our own bubbles.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Quanitfying CU's FCQs</title>
+   <link href="http://antsankov.github.io/blog/2014/03/16/CU_FCQ"/>
+   <updated>2014-03-16T00:00:00-06:00</updated>
+   <id>http://antsankov.github.io//blog/2014/03/16/CU_FCQ</id>
+   <content type="html">&lt;h4 id=&quot;main-idea&quot;&gt;Main Idea&lt;/h4&gt;
+
+&lt;p&gt;This was a web &lt;a href=&quot;https://github.com/antsankov/cufcq_dev&quot;&gt;project&lt;/a&gt; I worked with my roommates on Sophomore year for our Software Engineering Methods and Tools class. Our school, CU Boulder, collects surveys every semester, called FCQs about teachers and courses that measure average work load, teacher effectiveness, etc. Students can use these to sign up for courses and professors that are more highly rated. We wanted to take this data off of the school website and present it in a more readable format.&lt;/p&gt;
+
+&lt;h4 id=&quot;technology-used&quot;&gt;Technology Used&lt;/h4&gt;
+
+&lt;p&gt;Ruby on Rails, &lt;a href=&quot;https://github.com/antsankov/cufcq_dev/blob/master/csv_make/csv_maker.sh&quot;&gt;Bash&lt;/a&gt;, Heroku, PostgreSQL, Javascript &lt;a href=&quot;http://www.highcharts.com/&quot;&gt;Highcharts&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+		&lt;img class=&quot;displayed&quot; src=&quot;/pictures/cu-fcq/fcq_original.png&quot; alt=&quot;Original FCQ&quot; align=&quot;middle&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;
+		&lt;figcaption&gt;The current official system of FCQs&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;summary&quot;&gt;Summary&lt;/h4&gt;
+
+&lt;p&gt;For this project we wanted to take what was a pretty difficult to understand interface for this important data and make it more approachable for our fellow students. We broke this project into two main parts: scraping the data from the &lt;a href=&quot;http://www.colorado.edu/fcq/&quot;&gt;FCQ website&lt;/a&gt;,and inputting it into our Ruby on Rails server for analysis. I personally worked on the scraping aspect and it involved me downloading the data in 50,000 line excel documents and converting them to properly formatted CSV through a &lt;a href=&quot;https://github.com/antsankov/cufcq_dev/blob/master/csv_make/csv_maker.sh&quot;&gt;Bash&lt;/a&gt; script. Once we had it in this format, we could put it into our PostgreSQL DB and my partner could work on visualizing it using Highcharts. We actually got pretty far conceptually breaking what was originally a single FCQ interface into different ratings for departments, classes, and instructors. As of now the &lt;a href=&quot;https://github.com/antsankov/cufcq_dev&quot;&gt;project&lt;/a&gt; is dead, but we want to try to restart it by the end of May 2015 so students can make more informed decisions when selecting classes for future semesters. &lt;/p&gt;
+
+&lt;figure&gt;
+		&lt;img class=&quot;displayed&quot; src=&quot;/pictures/cu-fcq/mod_fcq.png&quot; alt=&quot;Our version&quot; align=&quot;middle&quot; width=&quot;75%&quot; height=&quot;75%&quot; /&gt;
+		&lt;figcaption&gt;The same data on our site, over time.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;hard-lessons-learned&quot;&gt;Hard Lessons Learned&lt;/h4&gt;
+
+&lt;p&gt;Scraping data is really frustrating. When you’re interacting with something that isn’t supposed to be worked with programmatically, in our case the FCQs, you start getting weird errors. Probably one of the most frustrating problems I dealt with was keeping track of the extra commas that were built into the FCQ data which would negatively affect how my computer interpreted the CSVs. If I had known about &lt;a href=&quot;http://openrefine.org/&quot;&gt;OpenRefine&lt;/a&gt; at the time, the project would have been much easier. &lt;/p&gt;
+
+&lt;h4 id=&quot;soft-lessons-learned&quot;&gt;Soft Lessons Learned&lt;/h4&gt;
+
+&lt;p&gt;We tried to approach the school FCQ office after we finished the class about getting official support for our product and they were unresponsive to say the least. Why we were naively expecting support from academia’s bureaucracy, I still don’t know, but it was a valuable lesson that sometimes making data more available is dangerous to some individuals invested in the status quo. &lt;/p&gt;
 
 </content>
  </entry>

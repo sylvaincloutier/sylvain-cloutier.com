@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Coinorado"
+title: "Coinorado Hackathon"
 date: 2014-11-15
 ---
 
 #### Main Idea
 
 For this [Hackathon][], I worked with my roommates [Sam][] and [Cris][],
-to develop a Bitcoin based [remittence system][] that was accessible
+to develop a Bitcoin based [remittence system][] to help immigrants send money back to their families that was accessible
 through basic SMS messaging. We stayed up for 24 hours and ended up
 winning half a bitcoin at the competition!
 
