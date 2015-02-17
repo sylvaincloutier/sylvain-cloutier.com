@@ -19,7 +19,7 @@ I'm going to doing this tutorial on a Mac that uses Python 2.7. These steps shou
 
 ### Installation Steps
 
-#### Step 0: Prerequisites
+## Step 0: Prerequisites
 
 I'm assuming for the sake of tutorial that you already have the following installed: 
 
@@ -52,7 +52,7 @@ Restart Sublime and confirm that it works by checking the preference menu:
 
 See [Official package control tutorial][]
 
-#### Step 2: Install sublime linter via package control
+## Step 2: Install sublime linter via package control
 
 Open the preferences menu and click "Package Control" : 
 
@@ -86,7 +86,7 @@ Confirm that they are both installed by checking the preference menu. You should
 </figure>
 
 
-#### Step 3: Install pylint 
+## Step 3: Install pylint 
 
 Open your terminal and install pylint with the following command: 
 
@@ -105,13 +105,13 @@ My output looked like this:
 
 [Pylint install instructions][]
 
-#### Step 4: Get your Python path
+##Step 4: Get your Python path
 
 To access Pylint, the SublimeLinter needs to know the path of where Python is installed. You can find this out by starting the python interpreter: 
 
 ``` $ python ```
 
-When you are in the interpreter run the following: 
+When you are in the interpreter run the following commands: 
 
 ``` >> import sys ```
 
@@ -126,7 +126,7 @@ You should have output that looks like the following:
 
 Copy all of the output of this print statement, including the open and closing bracket. 
 
-#### Step 5: Modify SublimeLinter-pylint settings
+## Step 5: Modify SublimeLinter-pylint settings
 
 Access the SublimeLinter-pylint Default-settings document (Preferences > Package Settings > Pylinter > Settings -Default) 
 
@@ -145,7 +145,7 @@ Replace the "python_path" array, which should be blank, with your correct path.
 
 Save the document and restart your Sublime. 
 
-#### Step 6: Confirm that everything works
+## Step 6: Confirm that everything works
 
 To test that it works, open a new python file, and check the margins of a line containing an error. You should see some coloring: 
 
