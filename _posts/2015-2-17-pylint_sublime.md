@@ -17,9 +17,9 @@ Part of what makes this tutorial necessary is that we are going to need four pro
 
 I'm going to doing this tutorial on a Mac that uses Python 2.7. These steps should all apply to a *nix system, although Python pathing might be different on Windows. 
 
-#### Installation Steps
+### Installation Steps
 
-## Step 0: Prerequisites
+#### Step 0: Prerequisites
 
 I'm assuming for the sake of tutorial that you already have the following installed: 
 
@@ -27,16 +27,16 @@ I'm assuming for the sake of tutorial that you already have the following instal
 * Python 
 * Pip 
 
-## Step 1: Install Sublime package control
+#### Step 1: Install Sublime package control
 
 The Sublime package control system will allow us to install SublimeLinter.
 
-Open the console with: ``` ctrl+` ```
+Open the console with: ``` ctrl+` ``` (control and tilde)
 
 It should look like the following: 
 
 <figure>
-		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle" width="75%" height="75%">
+		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle">
 		<figcaption>Installing the package manager</figcaption>
 </figure>
 
@@ -50,9 +50,9 @@ Restart Sublime and confirm that it works by checking the preference menu:
 		<img class="displayed" src="/pictures/sublime/2.png" alt="Original FCQ" align="middle" width="75%" height="75%">
 </figure>
 
-[Official package control tutorial][]
+See [Official package control tutorial][]
 
-## Step 2: Install sublime linter via package control
+#### Step 2: Install sublime linter via package control
 
 Open the preferences menu and click "Package Control" : 
 
@@ -64,10 +64,10 @@ You should see a menu pop up, type in ```install``` and select ```Package Contro
 
 <figure>
 		<img class="displayed" src="/pictures/sublime/4.png" alt="Install Menu" align="middle" width="75%" height="75%">
-		<figcaption>The install Menu</figcaption>
+		<figcaption>The install menu</figcaption>
 </figure>
 
-Install the following packages: “[SublimeLinter][]”
+Install the following: “SublimeLinter”
 
 Restart.
 
@@ -86,7 +86,7 @@ Confirm that they are both installed by checking the preference menu. You should
 </figure>
 
 
-## Step 3: Install pylint 
+#### Step 3: Install pylint 
 
 Open your terminal and install pylint with the following command: 
 
@@ -105,27 +105,28 @@ My output looked like this:
 
 [Pylint install instructions][]
 
-## Step 4: Get your Python path
+#### Step 4: Get your Python path
 
 To access Pylint, the SublimeLinter needs to know the path of where Python is installed. You can find this out by starting the python interpreter: 
 
 ``` $ python ```
 
-When you are in the interperter run the following: 
+When you are in the interpreter run the following: 
 
 ``` >> import sys ```
+
 ``` >> print sys.path ```
 
 You should have output that looks like the following: 
 
 <figure>
-		<img class="displayed" src="/pictures/sublime/8.png" alt="Python Path" align="middle" width="75%" height="75%">
-		<figcaption>Getting your Python Path</figcaption>
+		<img class="displayed" src="/pictures/sublime/8.png" alt="Python path" align="middle" width="75%" height="75%">
+		<figcaption>Getting your Python path</figcaption>
 </figure>
 
 Copy all of the output of this print statement, including the open and closing bracket. 
 
-## Step 4: Modify SublimeLinter-pylint settings
+#### Step 5: Modify SublimeLinter-pylint settings
 
 Access the SublimeLinter-pylint Default-settings document (Preferences > Package Settings > Pylinter > Settings -Default) 
 
@@ -144,7 +145,7 @@ Replace the "python_path" array, which should be blank, with your correct path.
 
 Save the document and restart your Sublime. 
 
-## Step 5: Confirm that everything works
+#### Step 6: Confirm that everything works
 
 To test that it works, open a new python file, and check the margins of a line containing an error. You should see some coloring: 
 
