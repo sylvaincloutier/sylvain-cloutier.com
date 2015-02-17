@@ -8,12 +8,14 @@ date: 2015-2-17
 
 I'm an avid Python programmer and I love using Sublime, but I've always missed a nice linter. A [linter][] is a tool that checks your code in real time for "suspicious and non-portable constructs" that are most likely indicative of a bug. In practice, this means errors like bad indents or typos are caught before you run the program, which can speed up a programmer's workflow. 
 
-Part of what makes this tutorial necessary is that we are going to need four programs besides Sublime. These are as follows: 
+Part of what makes this tutorial necessary is that we are going to need four programs besides Sublime to get our Python linter working. These are as follows: 
 
 * [Package Control][]: This is a Sublime application that allows you to install packages into the editor. 
 * [SublimeLinter][]: This is a Sublime application that creates the framework for a variety of linters to be displayed. 
 * [Pylint][]: This is a python program that actually takes care of the linting task. 
 * [SublimeLinter-pylint][]: This is the plug-in that connects the display ability of SublimeLinter with the Pylint engine. 
+
+To set this up required five or so different tutorials, so I am unifying these into one, which I am presenting here. 
 
 I'm going to doing this tutorial on a Mac that uses Python 2.7. These steps should all apply to a *nix system, although Python pathing might be different on Windows. 
 
@@ -31,12 +33,12 @@ I'm assuming for the sake of tutorial that you already have the following instal
 
 The Sublime package control system will allow us to install SublimeLinter.
 
-Open the console with: ``` ctrl+` ``` (control and tilde)
+Open the console with: ``` ctrl + ` ``` (control and tilde)
 
 It should look like the following: 
 
 <figure>
-		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle">
+		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle" idth="100%" height="100%">
 		<figcaption>Installing the package manager</figcaption>
 </figure>
 
