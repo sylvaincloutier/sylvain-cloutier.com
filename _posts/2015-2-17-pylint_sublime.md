@@ -111,6 +111,9 @@ My output looked like this:
 
 Official [Pylint install instructions][]
 
+
+#### Follow step 4 and 5 if Sublime Pylint returns errors about not being able find interpreter! If not, skip to 6 
+
 ##Step 4: Get your Python path
 
 To access Pylint, the SublimeLinter needs to know the path of where Python is installed. You can find this out by starting the python interpreter from your console: 
@@ -142,7 +145,7 @@ Access the SublimeLinter-pylint Default-settings document (Preferences > Package
 </figure>
 
 
-Replace the "python_path", which should be blank, with your correct path. Remember to include the square brackets! 
+Replace the "python_path", which should be blank, with your correct path. Each string in the path should be surround with double quotes  Remember to include the square brackets! 
 
 <figure>
 		<img class="displayed" src="/pictures/sublime/10.png" alt="Adding the path" align="middle" width="75%" height="75%">
@@ -163,7 +166,7 @@ To test that it works, open a new python file, and check the margins of a line c
 
 [linter]: http://en.wikipedia.org/wiki/Lint_(software)
 [Package Control]: https://packagecontrol.io/
-[SublimeLinter]: http://sublimelinter.readthedocs.org/en/latest/about.html
+[SublimeLinter]: http:// linter.readthedocs.org/en/latest/about.html
 [Pylint]: http://www.pylint.org/#install
 [Sublime]: http://www.sublimetext.com/3
 
