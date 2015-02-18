@@ -38,7 +38,7 @@ Open the Sublime console with: ``` ctrl + ` ``` (control and `)
 You should see a console appear at the bottom of Sublime: 
 
 <figure>
-		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle" width="50%" height="100%">
+		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle" width="100%" height="100%">
 		<figcaption>Installing the package manager</figcaption>
 </figure>
 
