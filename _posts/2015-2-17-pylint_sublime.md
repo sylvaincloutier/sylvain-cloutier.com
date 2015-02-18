@@ -6,7 +6,7 @@ date: 2015-2-17
 
 #### Summary 
 
-I'm an avid Python programmer and I love using Sublime, but I've always missed a nice linter. A [linter][] is a tool that checks your code in real time for "suspicious and non-portable constructs" that are most likely indicative of a bug. In practice, this means errors like bad indents or typos are caught before you run the program, which can speed up a programmer's workflow. 
+I'm an avid Python programmer and I love using Sublime, but I've always missed a nice linter for it. A [linter][] is a tool that checks your code in real time for "suspicious and non-portable constructs" that are most likely indicative of a bug. In practice, this means errors like bad indents or typos can be caught before you run the program preventing silly errors and speeding up a programmer's workflow. 
 
 Part of what makes this tutorial necessary is that we are going to need four programs besides Sublime to get our Python linter working. These are as follows: 
 
@@ -15,11 +15,11 @@ Part of what makes this tutorial necessary is that we are going to need four pro
 * [Pylint][]: This is a python program that actually takes care of the linting task. 
 * [SublimeLinter-pylint][]: This is the plug-in that connects the display ability of SublimeLinter with the Pylint engine. 
 
-To set this up required five or so different tutorials, so I am unifying these into one, which I am presenting here. 
+To set all of these up required five or so different tutorials operating in parallel with some extra Googling thrown in for good measure. I am unifying these into one more simple tutorial, which I am presenting here to hopefully save readers some time. 
 
 I'm going to doing this tutorial on a Mac that uses Python 2.7. These steps should all apply to a *nix system, although Python pathing might be different on Windows. 
 
-### Installation Steps
+#### Installation Steps
 
 ## Step 0: Prerequisites
 
@@ -31,14 +31,14 @@ I'm assuming for the sake of tutorial that you already have the following instal
 
 #### Step 1: Install Sublime package control
 
-The Sublime package control system will allow us to install SublimeLinter.
+The Sublime package control system allows us to install a variety of packages (think Plugins) including SublimeLinter.
 
-Open the console with: ``` ctrl + ` ``` (control and tilde)
+Open the Sublime console with: ``` ctrl + ` ``` (control and `)
 
-It should look like the following: 
+You should see a console appear at the bottom of Sublime: 
 
 <figure>
-		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle" idth="100%" height="100%">
+		<img class="displayed" src="/pictures/sublime/1.png" alt="Package Control" align="middle" width="50%" height="100%">
 		<figcaption>Installing the package manager</figcaption>
 </figure>
 
@@ -52,9 +52,9 @@ Restart Sublime and confirm that it works by checking the preference menu:
 		<img class="displayed" src="/pictures/sublime/2.png" alt="Original FCQ" align="middle" width="75%" height="75%">
 </figure>
 
-See [Official package control tutorial][]
+See [Official package control tutorial][] if you are having problems. 
 
-## Step 2: Install sublime linter via package control
+## Step 2: Install the Sublime linter via package control
 
 Open the preferences menu and click "Package Control" : 
 
@@ -62,11 +62,18 @@ Open the preferences menu and click "Package Control" :
 		<img class="displayed" src="/pictures/sublime/3.png" alt="Opening package control" align="middle" width="75%" height="75%">
 </figure>
 
-You should see a menu pop up, type in ```install``` and select ```Package Control: Install Package```. You should the following menu: 
+You should see a menu pop up like the one below, type in ```install``` and select 'Package Control: Install Package'.
 
 <figure>
 		<img class="displayed" src="/pictures/sublime/4.png" alt="Install Menu" align="middle" width="75%" height="75%">
 		<figcaption>The install menu</figcaption>
+</figure>
+
+Press enter and you should see another menu listing packages to install: 
+
+<figure>
+		<img class="displayed" src="/pictures/sublime/5.png" alt="Insalling packages" align="middle" width="75%" height="75%">
+		<figcaption>Install Packages</figcaption>
 </figure>
 
 Install the following: “SublimeLinter”
@@ -74,11 +81,6 @@ Install the following: “SublimeLinter”
 Restart.
 
 Repeat the process and then install:  “SublimeLinter-pylint”
-
-<figure>
-		<img class="displayed" src="/pictures/sublime/5.png" alt="Insalling packages" align="middle" width="75%" height="75%">
-		<figcaption>Install Packages</figcaption>
-</figure>
 
 Confirm that they are both installed by checking the preference menu. You should see entries for both SublimeLinter and SublimeLinter-pylint. 
 
@@ -89,6 +91,8 @@ Confirm that they are both installed by checking the preference menu. You should
 
 
 ## Step 3: Install pylint 
+
+Pylint is a python application that will actually do the linting work displayed by Sublime. 
 
 Open your terminal and install pylint with the following command: 
 
@@ -105,11 +109,11 @@ My output looked like this:
 		<figcaption>Pylint working </figcaption>
 </figure>
 
-[Pylint install instructions][]
+Official [Pylint install instructions][]
 
 ##Step 4: Get your Python path
 
-To access Pylint, the SublimeLinter needs to know the path of where Python is installed. You can find this out by starting the python interpreter: 
+To access Pylint, the SublimeLinter needs to know the path of where Python is installed. You can find this out by starting the python interpreter from your console: 
 
 ``` $ python ```
 
@@ -126,7 +130,7 @@ You should have output that looks like the following:
 		<figcaption>Getting your Python path</figcaption>
 </figure>
 
-Copy all of the output of this print statement, including the open and closing bracket. 
+Copy all of the output of this print statement. 
 
 ## Step 5: Modify SublimeLinter-pylint settings
 
@@ -138,7 +142,7 @@ Access the SublimeLinter-pylint Default-settings document (Preferences > Package
 </figure>
 
 
-Replace the "python_path" array, which should be blank, with your correct path. 
+Replace the "python_path", which should be blank, with your correct path. Remember to include the square brackets! 
 
 <figure>
 		<img class="displayed" src="/pictures/sublime/10.png" alt="Adding the path" align="middle" width="75%" height="75%">
