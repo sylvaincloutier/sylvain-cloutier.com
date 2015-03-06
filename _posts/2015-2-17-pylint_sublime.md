@@ -145,7 +145,8 @@ Access the SublimeLinter-pylint Default-settings document (Preferences > Package
 </figure>
 
 
-Replace the "python_path", which should be blank, with your correct path. Each string in the path should be surround with double quotes  Remember to include the square brackets! 
+Replace the "python_path", which should be blank, with the path to your lint.py. On my installation is was located at: ``` "/usr/local/lib/python2.7/site-packages/pylint/lint.py"```
+Remember to include the square brackets! 
 
 <figure>
 		<img class="displayed" src="/pictures/sublime/10.png" alt="Adding the path" align="middle" width="75%" height="75%">
