@@ -1,0 +1,93 @@
+{
+  "basics": {
+      "name": "Alex Tsankov",
+      "label": "Computer Science and Philosophy Student",
+      "picture": "",
+      "email": "antsankov@gmail.com",
+      "phone": "720-837-8697",
+      "website": "http://antsankov.github.io",
+      "summary": "Blending my love of computers with my passion for the humanities -- all while playing with as many new technologies as possible in the process.",
+      "location": {
+            "address": "3285 Moorhead Ave.",
+            "postalCode": "CO 80306",
+            "city": "Boulder",
+            "countryCode": "US",
+            "region": "Colorado"
+          },
+      "profiles": [{
+            "network": "Github",
+            "username": "antsankov",
+            "url": "https://github.com/antsankov"
+          },
+          {
+            "network": "LinkedIn",
+            "url":"https://www.linkedin.com/pub/alexander-tsankov/63/577/58b/"
+          }]
+    },
+  "work": [{
+      "company": "Company",
+      "position": "President",
+      "website": "http://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+            "Started the company"
+          ]
+    }],
+  "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "website": "http://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description...",
+      "highlights": [
+            "Awarded 'Volunteer of the Month'"
+          ]
+    }],
+  "education": [{
+      "institution": "University",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "4.0",
+      "courses": [
+            "DB1101 - Basic SQL"
+          ]
+    }],
+  "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+  "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Description..."
+    }],
+  "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+            "HTML",
+            "CSS",
+            "Javascript"
+          ]
+    }],
+  "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+  "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+            "Ferrets",
+            "Unicorns"
+          ]
+    }]
+}
