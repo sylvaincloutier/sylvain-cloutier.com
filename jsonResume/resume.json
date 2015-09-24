@@ -8,8 +8,8 @@
       "website": "http://antsankov.github.io",
       "summary": "Blending my love of computers with my passion for the humanities -- all while playing with as many new technologies as possible in the process.",
       "location": {
-            "address": "3285 Moorhead Ave.",
-            "postalCode": "CO 80306",
+            "address": "805 36th St.",
+            "postalCode": "80303",
             "city": "Boulder",
             "countryCode": "US",
             "region": "Colorado"
@@ -24,17 +24,44 @@
             "url":"https://www.linkedin.com/pub/alexander-tsankov/63/577/58b/"
           }]
     },
-  "work": [{
-      "company": "Company",
-      "position": "President",
-      "website": "http://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description...",
+  "work": [
+      {
+      "company": "Workiva",
+      "position": "Intern",
+      "website": "http://workiva.com",
+      "startDate": "2015-06",
+      "endDate": "2015-08",
+      "summary": "Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
       "highlights": [
-            "Started the company"
-          ]
-    }],
+            "Learning Go.",
+            "Writing a RESTful API.",
+            "Contributed to Pongo open-sourece Go library."]
+    },
+    {
+    "company": "Eric Keller's Labartory",
+    "position": "Lab Assistant",
+    "website": "http://workiva.com",
+    "startDate": "2014",
+    "endDate": "2015",
+    "summary": "Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
+    "highlights": [
+          "Learning Go.",
+          "Writing a RESTful API.",
+          "Contributed to Pongo open-sourece Go library."]
+  },
+  {
+  "company": "Workiva",
+  "position": "Intern",
+  "website": "http://workiva.com",
+  "startDate": "2015-06-01",
+  "endDate": "2015-08-01",
+  "summary": "Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
+  "highlights": [
+        "Learning Go.",
+        "Writing a RESTful API.",
+        "Contributed to Pongo open-sourece Go library."]
+  }
+  ],
   "volunteer": [{
       "organization": "Organization",
       "position": "Volunteer",
