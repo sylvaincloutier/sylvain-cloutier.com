@@ -29,8 +29,8 @@
       "company": "Workiva",
       "position": "Intern",
       "website": "http://workiva.com",
-      "startDate": "2015-06",
-      "endDate": "2015-08",
+      "startDate": "2015-06-01",
+      "endDate": "2015-08-01",
       "summary": "Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
       "highlights": [
             "Learning Go.",
@@ -38,41 +38,90 @@
             "Contributed to Pongo open-sourece Go library."]
     },
     {
-    "company": "Eric Keller's Labartory",
+    "company": "Prof. Eric Keller's Next Generation Networks Group",
     "position": "Lab Assistant",
-    "website": "http://workiva.com",
-    "startDate": "2014",
-    "endDate": "2015",
-    "summary": "Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
+    "website": "https://ngn.cs.colorado.edu/",
+    "startDate": "2014-08-01",
+    "endDate": "2015-05-01",
+    "summary": "Worked with Prof. Keller on the 'yanc' network controller and SDN technology, specifically integration with Bro Intrusion Detection System. I also did research on applying Test Driven Development practices to Bro script development",
     "highlights": [
-          "Learning Go.",
-          "Writing a RESTful API.",
-          "Contributed to Pongo open-sourece Go library."]
+          "Participated in submitting and helping write a research paper for     SIGCOMM.",
+          "Developing an automated continuous integration system for an IDS.",
+          "Learning about Software Defined Networking(SDN).",
+          "Completed through CU Boulder Discovery Learning Apprenticeship."
+        ]
   },
   {
-  "company": "Workiva",
+  "company": "ioSemantics",
   "position": "Intern",
-  "website": "http://workiva.com",
-  "startDate": "2015-06-01",
-  "endDate": "2015-08-01",
-  "summary": "Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
+  "website": "http://www.iosemantics.com/",
+  "startDate": "2014-06-01",
+  "endDate": "2014-08-01",
+  "summary": "Worked on project to integrate a Prolog AI language parser with a custom IDE designed in the Eclipse RCP framework. Focused on GUI design and programming, data visualization, script automation, SWT graphics, and code documentation in an agile start-up environment.",
   "highlights": [
-        "Learning Go.",
-        "Writing a RESTful API.",
-        "Contributed to Pongo open-sourece Go library."]
+        "Learned proper Object-Oriented techniques for Java.",
+        "Eclipse RCP library for custom applications.",
+        "Build automation using Bash."]
+  },
+  {
+  "company": "CU Boulder IT Security Office",
+  "position": "Student Assistant",
+  "website": "http://www.colorado.edu/oit/services/it-security",
+  "startDate": "2013-02-01",
+  "endDate": "2015-05-01",
+  "summary": "Worked to secure campus network and infrastructure. This included managing a variety of *nix servers and work stations, Juniper firewalls, Cisco security appliances, and intrusion detection systems. Specifically the open-source Bro intrusion detection system.",
+  "highlights": [
+        "Learned to help manage security for 50,000+ host network.",
+        "Gained experience working with firewalls and managing vulnerabilties remotely.",
+        "Acquired proficiency with using Bash."]
+  },
+  {
+  "company": "CU Boulder ITL Laboratory",
+  "position": "Assistant System Administrator",
+  "website": "http://www.colorado.edu/oit/services/it-security",
+  "startDate": "2012-08-01",
+  "endDate": "2013-01-01",
+  "summary": "Managed a diverse set of lab tools in an advanced client-server environment. Includes experience with Symantec management suite, Windows server management, Active Directory,  building images/ghosting, cabling, customer support, and lab documentation.",
+  "highlights": [
+        "Helped build and manage a laboratory of 100+ hosts. ",
+        "Gained experience ensuring proper connections between hosts and a variety of lab devices.",
+        "Worked with Windows SA systems to ensure rapid deployment of updates and patechs."]
   }
   ],
   "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "website": "http://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description...",
+      "organization": "Students for Instructional Improvement",
+      "position": "Creator",
+      "website": "https://github.com/SFII/scq",
+      "startDate": "2015-07-01",
+      "endDate": "2016-04-01",
+      "summary": "Founded a group dedicated to helping improve teacher quality through better course-questionnaires. Worked with a team of CU-Boulder students to help launch an application and survey system to do this. Also worked with Michael Skirpan and Prof. Tom Yeh to perform data analysis.",
       "highlights": [
-            "Awarded 'Volunteer of the Month'"
+            "Helped manage and set goals for a team of 6+ students and researchers.",
+            "Worked with school administration to help create and launch group."
           ]
-    }],
+    },
+    {
+        "organization": "CUFCQ.com",
+        "position": "Creator/Systems Wizard",
+        "website": "http://cufcq.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Description...",
+        "highlights": [
+              "Awarded 'Volunteer of the Month'"
+            ]
+      },
+      {
+          "organization": "Organization",
+          "position": "Volunteer",
+          "website": "http://organization.com/",
+          "startDate": "2012-01-01",
+          "endDate": "2013-01-01",
+          "summary": "Description...",
+          "highlights": [
+                "Awarded 'Volunteer of the Month'"
+              ]
+        }],
   "education": [{
       "institution": "University",
       "area": "Software Development",
@@ -97,15 +146,47 @@
       "website": "http://publication.com",
       "summary": "Description..."
     }],
-  "skills": [{
+  "skills": [
+      {
+          "name": "Dev-Ops and Systems Automation",
+          "level": "Intermediate",
+          "keywords": [
+                "HTML",
+                "CSS",
+                "Javascript"
+              ]
+      },
+      {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Intermediate",
+      "keywords": [
+            "HTML",
+            "Ruby on Rails",
+            "Javascript"
+      ]
+    },
+    {
+    "name": "Web Development",
+    "level": "Intermediate",
+    "keywords": [
+          "HTML",
+          "Ruby on Rails",
+          "Javascript"
+        ]
+    },
+    {
+      "name": "Programming",
+      "level": "Work in progress.",
       "keywords": [
             "HTML",
             "CSS",
             "Javascript"
           ]
-    }],
+    }
+  ],
+
+
+
   "languages": [{
       "language": "English",
       "fluency": "Native speaker"
