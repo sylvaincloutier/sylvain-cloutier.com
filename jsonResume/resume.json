@@ -26,6 +26,18 @@
     },
   "work": [
       {
+      "company": "Google",
+      "position": "Operation Apprentice",
+      "website": "http://goole.com",
+      "startDate": "2015-09-01",
+      "summary": "Supporting the needs of Google's infrastructure by both helping to identify and resolve problems, and imprving on internal and external utilities and software. My work interfaces directly with other server and service owners ensuring reliability and accessibility of Google’s infrastructure to end users.",
+      "highlights": [
+            "Handling tickets from 100s of ISPs from all over the world.",
+            "Learning internal Google development tools.",
+            "Contributing to the Google codebase."
+            ]
+      },
+      {
       "company": "Workiva",
       "position": "Intern",
       "website": "http://workiva.com",
@@ -101,101 +113,92 @@
           ]
     },
     {
-        "organization": "CUFCQ.com",
-        "position": "Creator/Systems Wizard",
+        "organization": "cufcq.com",
+        "position": "Creator and Maintainer",
         "website": "http://cufcq.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Description...",
+        "startDate": "2012-03-01",
+        "summary": "Created an alternate website to store and visualize our school's faculty/course questionaires. Programmed and designed the site from scratch and worked with the school newspaper to help publicize it.",
         "highlights": [
-              "Awarded 'Volunteer of the Month'"
+            "Ruby on Rails running a PostgreSQL databse.",
+            "Created and maintained open-source project with multiple contributors and public API endpoints.",
+            "Manged a website with over 10,000 users."
             ]
       },
       {
-          "organization": "Organization",
-          "position": "Volunteer",
-          "website": "http://organization.com/",
-          "startDate": "2012-01-01",
-          "endDate": "2013-01-01",
-          "summary": "Description...",
+          "organization": "U.S. Senator Michael Bennet",
+          "position": "Intern",
+          "website": "http://www.bennet.senate.gov/",
+          "startDate": "2011-07-01",
+          "endDate": "2013-08-01",
+          "summary": "In support of constituency, worked with staff on case work, interfaced with the community, including non-profits and other state and federal government agencies. Assisted in official event management.",
           "highlights": [
-                "Awarded 'Volunteer of the Month'"
-              ]
+              "Event management.",
+              "Helped the community throguh casework on immigration issues."
+        ]
         }],
   "education": [{
-      "institution": "University",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "gpa": "4.0",
+      "institution": "University of Colorado, Boulder",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2012-08-01",
+      "gpa": "3.64/4.0",
       "courses": [
-            "DB1101 - Basic SQL"
+            "CSCI 3155 - Principles of Programming Languages",
+            "CSCI 3753 - Operating Systems",
+            "CSCI 4830 - Data Engineering"
           ]
-    }],
-  "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-  "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "website": "http://publication.com",
-      "summary": "Description..."
-    }],
+    },
+    {
+        "institution": "University of Colorado, Boulder",
+        "area": "Philosophy",
+        "studyType": "Bachelor of Arts",
+        "startDate": "2012-08-01",
+        "gpa": "3.81/4.0",
+        "courses": [
+              "PHIL 2440 - Symbolic Logic",
+              "PHIL 4490 - Philosophy of Language",
+              "CSCI 4010 - Nietzsche Grad/Undergrad Seminar"
+            ]
+      }
+   ],
   "skills": [
       {
           "name": "Dev-Ops and Systems Automation",
           "level": "Intermediate",
           "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
+                "Software Defined Networking (SDN)",
+                "Bro Intrusion Detection System (IDS)",
+                "Automated Deployment System",
+                "Shell scripting: Bash, zsh",
+                "*nix Systems"
               ]
       },
       {
       "name": "Web Development",
       "level": "Intermediate",
       "keywords": [
-            "HTML",
+            "Frontend Frameworks: Bootstrap, Material Design Lite",
             "Ruby on Rails",
-            "Javascript"
+            "Python Tornado",
+            "Databases (PostgreSQL, MongoDB)",
+            "Development Practices (git, continuous integration, unit testing)"
       ]
     },
     {
-    "name": "Web Development",
-    "level": "Intermediate",
-    "keywords": [
-          "HTML",
-          "Ruby on Rails",
-          "Javascript"
-        ]
-    },
-    {
       "name": "Programming",
-      "level": "Work in progress.",
+      "level": "See my Github.",
       "keywords": [
-            "HTML",
-            "CSS",
-            "Javascript"
-          ]
+            "Python",
+            "Go",
+            "Javascript",
+            "Java",
+            "C"
+        ]
     }
   ],
-
-
 
   "languages": [{
       "language": "English",
       "fluency": "Native speaker"
-    }],
-  "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-            "Ferrets",
-            "Unicorns"
-          ]
     }]
 }
