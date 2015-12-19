@@ -23,6 +23,11 @@
             {
                 "network":"LinkedIn",
                 "url":"https://www.linkedin.com/pub/alexander-tsankov/63/577/58b/"
+            },
+            {
+                "network":"Medium (Blog)",
+                "username":"antsankov",
+                "url":"https://medium.com/@antsankov"
             }
         ]
     },
