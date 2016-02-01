@@ -22,7 +22,8 @@
             },
             {
                 "network":"LinkedIn",
-                "url":"https://www.linkedin.com/pub/alexander-tsankov/63/577/58b/"
+             	  "username":"antsankov",
+		            "url":"https://linkedin.com/in/antsankov"
             },
             {
                 "network":"Medium (Blog)",
@@ -35,9 +36,9 @@
         {
             "company":"Google",
             "position":"Operation Apprentice",
-            "website":"http://goole.com",
+            "website":"http://google.com",
             "startDate":"2015-09-01",
-            "summary":"Supporting the needs of Google's infrastructure by both helping to identify and resolve problems, and imprving on internal and external utilities and software. My work interfaces directly with a variety of partners to ensure reliability and accessibility of Google’s infrastructure to end users.",
+            "summary":"Supporting the needs of Google's infrastructure by both helping to identify and resolve problems, and improving on internal and external utilities and software. My work interfaces directly with a variety of partners to ensure reliability and accessibility of Google’s infrastructure to end users.",
             "highlights":[
                 "Handling tickets from 100s of ISPs from all over the world.",
                 "Learning internal Google development tools.",
@@ -53,7 +54,7 @@
             "summary":"Working to create large scale RESTful Go applications to handle mail notifications. Applications are running on Google App Engine with a Datastore DB. Other parts of application involves dynamic HTML templating and RESTful requests to other APIs both internal and external.",
             "highlights":[
                 "Learning Go.",
-                "Writing a RESTful API.",
+                "Writing and testing a RESTful API.",
                 "Contributed to an open-sourece Go library."
             ]
         },
@@ -222,15 +223,15 @@
     "awards":[
         {
             "title":"Undergraduate Ethics Symposium",
-            "date":"2015-4-09",
+            "date":"2015-04-09",
             "awarder":"DePauw: Prindle Institute",
-            "summary":"Submitted essay about the ethics of automated vehicles. Was sponsored by CU to travel to the conference."
+            "summary":"Submitted essay about the ethics of automated vehicles and recieved sponsorship from CU to travel to the conference."
         },
         {
             "title":"Hackathon Prize Winner",
             "date":"2014-11-14",
             "awarder":"Coin-orado: Bitcoin Hackathon",
-            "summary":"Built a text-message based Bitcoin purchasing system. Worked with Twilio and Python Flask."
+            "summary":"Built a text-message based Bitcoin purchasing system. Worked with Twilio API, Blockchain and Python Flask."
         }
     ],
     "languages":[
