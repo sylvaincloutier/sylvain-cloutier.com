@@ -12,7 +12,7 @@ I've also done research in the area of security and software defined networking(
 
 ### Contact me
 
-Find me on [Github][github] / [Medium][medium] / [LinkedIn][linkedin] or just send a `Hello` to
+Find me on [Github][github] / [Medium][medium] / [LinkedIn][linkedin] or just send a ```Hello``` to
 [antsankov@gmail.com][email].
 
 
