@@ -1,7 +1,7 @@
 # Harmony Jekyll theme general configurations
 
 # Base URL
-baseurl: /
+# baseurl: /
 
 # Site live URL
 url: http://antsankov.github.io
@@ -40,7 +40,7 @@ markdown:    kramdown
 highlighter: rouge
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 exclude:
   - CNAME
