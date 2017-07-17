@@ -5,7 +5,7 @@ permalink: /faq/
 ---
 
 What do you do for fun?
-: I like to go to concerts, walk/hike around, got to a museum, or play ping pong.
+: I like to go to concerts, walk/hike around, go to a museum, or play ping pong.
 
 What's your favorite programming language?
 : Python or Go.
