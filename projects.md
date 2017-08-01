@@ -31,7 +31,7 @@ During my senior year, I built a continuous integration system from scratch for 
 
 [broci]: https://www.academia.edu/26635068/Taking_the_Surprise_out_of_Changes_to_a_Bro_Setup
 
---
+___
 
 ## [Mr.Roadboto](http://m.me/roadboto)
 
@@ -43,7 +43,7 @@ A low-bandwidth and easy to use Facebook chat bot that serves Colorado's Departm
 
 Find the source code [here](https://github.com/antsankov/MrRoadboto)
 
-__
+___
 
 ## [PhishMonger](https://github.com/untra/phishmonger)
 
