@@ -9,11 +9,11 @@ I did some undergraduate research with Prof. Eric Keller and the [NGN][ngn] grou
 
 ___
 
-## Conference Proceedings
+## Conference Publications and Presentations
 
 [*Taking the Surprise out of Changes to a Bro Setup*][surprise]. Matthew Monaco, Alex Tsankov, Eric Keller. ACM CODASPY 2016, New Orleans, LA.
 
-*Invited to re-deliver presentation at the NFV world congress.*
+*Selected to present at 2016 [ACM CODASPY][codaspy] New Orleans and the 2016 [NFV World Congress][nfv] San Jose.*
 
 ___
 
@@ -23,6 +23,8 @@ ___
 
 ___
 
-[ngn]: http://ngn.cs.colorado.edu/
+[nfv]: https://www.layer123.com/nfv
+[codaspy]: http://honeynet.asu.edu/sdnnfvsec2016/program.html
+[ngn]: http://nsr.colorado.edu/publications/
 [surprise]: https://www.academia.edu/26635068/Taking_the_Surprise_out_of_Changes_to_a_Bro_Setup
 [yanc]: https://www.academia.edu/13033967/Yanc_Yet_Another_Network_Controller
