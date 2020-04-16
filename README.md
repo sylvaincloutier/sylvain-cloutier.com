@@ -1,1 +1,1 @@
-# antsankov.github.io
+# antsankov.com
