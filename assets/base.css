@@ -109,7 +109,7 @@ section {
 body {
     line-height: 1;
     background: #fff;
-    font: 14px/21px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px/21px HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -507,3 +507,5 @@ legend span {
 .add-bottom {
     margin-bottom: 20px !important;
 }
+
+td{padding-bottom:.6em}th{width:6em;font-weight:700;text-align:left}
